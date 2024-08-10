@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(235, 234, 234);
+} 
+
+.container{
+    background-color:#dad7d7;
+    width:70%;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin-inline:auto;
+    margin-block:40px;
+    padding:20px;
+}
+
+.left-column{
+    width:30%;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 4px 4px 4px #ccc;
+}
+
+.right-column{
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    gap:22px;
+}
+
+.image-box img{
+    width:100%; 
+}
+
+.image-box{
+    position:relative;
+}
+
+.image-box .username{
+    position:absolute;
+    bottom:10px;
+    left:5px;
+    color:#a1292d;
+    text-decoration: none;
+}
+
+.contact-info ul{
+    list-style: none;
+}
+
+.icon-text {
+    display:flex;
+    gap:10px; 
+}
+
+.icon-text p{
+    overflow-wrap: break-word;
+    word-break: break-all; 
+}
+
+i{
+    color:#a1292d;
+}
+
+.right-column i{
+    color:#a1292d;
+    padding-top: 13px;
+}
+
+.ict i{
+    color:#a1292d;
+    padding-top:13px;
+}
+.skills{
+    width:100%;
+}
+
+.skills-name{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    padding:10px;
+
+}
+.skill{
+    background-color: #a1292d;
+    border-radius: 5px;
+    height:fit-content;
+    padding:4px;
+} 
+
+.InterestsHobbies{
+    width:100%;
+}
+
+.interests-hobbies{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    padding:10px;
+}
+
+.i-h{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    height:fit-content;
+    padding:4px;
+} 
+
+.lan1{
+    padding-left:12px;
+}
+
+.language ul{
+    list-style: none;
+}
+
+.proficiency {
+    font-style:oblique;
+    color:rgb(112, 112, 112);
+}
+.period {
+    font-style:oblique;
+    color:rgb(112, 112, 112);
+}
+.marks {
+    font-style:oblique;
+    color:#a1292d;
+}
+.institute{
+    font-style:oblique;
+}
+.company{
+    font-style:oblique;
+    color:rgb(112, 112, 112);
+}
+
+.left-desc , .right-desc{
+    margin:21px;
+}
+
+.contact-info ul >li {
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+hr{
+    border:1.5px solid #eee;
+}
+
+.skills, .InterestsHobbies, .language{
+    margin-block:5px;
+}
+
+h2{
+    margin-block:8px;
+    text-decoration-line: underline;
+    text-decoration-style:solid;
+    text-decoration-color: #a1292d;
+    text-decoration-thickness: 1.3px;
+}
+
+ .pr{
+    padding:3px;
+    color:#a1292d;
+}
+
+.degree{
+    padding-top:7px;
+    padding-bottom:7px;
+}
+
+.h{
+   margin:4px;
+}
+
+h3{
+    margin-block:3px;
+}
+
+.lang{
+    padding-top:6px;
+}
+.username{
+    color:hsl(358, 59%, 40%);
+}
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .left-column, .right-column {
+      width: 100%;
+    }
+  }
